@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+#grid {
+    display: inline-grid;
+    gap: 1px;
+    background-color: #ccc;
+    padding: 1px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.cell.start {
+    background-color: green;
+}
+
+.cell.end {
+    background-color: red;
+}
+
+.cell.wall {
+    background-color: black;
+}
+
+.cell.path {
+    background-color: yellow;
+}
+
+.cell.visited {
+    background-color: lightblue;
+}
